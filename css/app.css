@@ -2,5 +2,37 @@
 h1 {
   font-size: 20px;
   /*color: green;*/
-  color: #dc9090;
+  color: #000;
 }
+
+
+
+/*
+span{
+    font-size: 20px;
+    color: #037bc0;
+}
+
+h1 span{
+    font-size: 20px;
+    color: #037bc0;
+}
+
+h2 span{
+    font-size: 20px;
+    color: #037bc0;
+}
+
+a {
+  text-transform: uppercase;
+}
+
+footer a {
+  text-transform: lowercase;
+}
+nav a:nth-child(1){
+  text-transform: uppercase;
+  font-size: 40px;
+}
+*/
+
