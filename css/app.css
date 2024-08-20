@@ -7,6 +7,12 @@ h1 {
 
 
 
+/* 
+- MODULOS
+- BEM
+- SMACSS
+
+ */
 /*
 span{
     font-size: 20px;
@@ -33,6 +39,40 @@ footer a {
 nav a:nth-child(1){
   text-transform: uppercase;
   font-size: 40px;
+}
+
+Grado de especificidad : 0 
+nav a {
+  text-transform: uppercase;
+}
+
+Grado de especificidad : 1
+EL RECOMENDADO 
+.navegacion a {
+  text-transform: lowercase;
+}
+
+
+ Grado de especificidad : 2 
+#navegacion a {
+text-transform: capitalize;
+}
+
+!important  NUNCA USAR
+
+
+.navegacion {
+
+}
+
+.enlace{
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
+
+.color{
+  color:red;
 }
 */
 
