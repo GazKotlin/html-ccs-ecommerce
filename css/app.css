@@ -1,4 +1,12 @@
 
+.sobre-nosotros{
+ background-color: bisque;
+ width: 200px;
+ padding: 25px;
+ box-sizing:border-box ;
+
+}
+
 h1 {
   font-size: 20px;
   /*color: green;*/
